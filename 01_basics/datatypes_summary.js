@@ -65,5 +65,22 @@ console.log(typeof id);//symbol
 
 
 
+// ******************************************
+
+
+// Memory 
+
+// Stack used in Primitive datatype , Heap (Non- Primitive storage)
+
+let myYotubename = "CodeCrafts"
+let another_name = myYotubename
+
+another_name="apurva"
+console.log(another_name);
+console.log(myYotubename);
+
+
+
+
 
 
