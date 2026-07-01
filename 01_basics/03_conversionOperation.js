@@ -64,3 +64,57 @@ let booleanIsLoggedIn3 = Boolean(isLoggedIn3)
  let stringNumber = String(someNumber)
 console.log(stringNumber) // output : 33
 console.log(typeof stringNumber); // Coverted to string
+
+
+/*       ****** Operations ******    */
+
+let value = 3
+let negValue = -value
+
+console.log(negValue) //Output : -3
+console.log(2+3);
+console.log(3-3);
+console.log(2*3);
+console.log(2%2);
+console.log(2/2);
+console.log(2**2);
+
+let str1 = "Hello"
+let str2 = " Apurva"
+
+let str3= str1 + str2 // String concatination adding two string values in one single unit
+
+console.log(str3);
+
+
+//Complex 
+
+console.log("1" + 3); //Output:13
+console.log(1 + "2"); //output : 12
+console.log("1" + 2 +2); // output : 122
+console.log(1 + 2 + "2"); //Imp : Output : 32 beacasue it all guides through their ecamscript Type conversion
+
+console.log( (3 + 4) * (5 % 3)) // Always use parentehsis for mathematical type conversion
+
+console.log(+true); //ouput : 1 , but not advisible to do such type of stuff in programing cycle
+console.log(+""); //output: 0 
+
+let num1 , num2, num3 //not advisable
+
+num1 = num2 = num3 = 2 +2 // not advisiable
+
+let gameCounter = 100
+gameCounter++ // post increment
+++gameCounter  // pre increment
+console.log(gameCounter); // Output : 101
+
+//Study pre and post increment from mdn refernce
+
+
+
+
+
+
+
+
+
