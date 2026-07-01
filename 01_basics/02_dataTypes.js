@@ -9,13 +9,13 @@ let name = "apurva"
 let age = 19
 let isLoggedIn = false
 
-// number => 2 to poer 53 range of values
+// number => 2 to power 53 range of values
 //  bigint for larger values range than number
  //string => ""
  //boolean => true/false
  // null => standalone value it means empty  its an object 
  // undefined =>  abhi value assigned nahi hue hai
- // symbol  =>  t used to define uniquness
+ // symbol  =>  it used to define uniquness
 
 
  // object
