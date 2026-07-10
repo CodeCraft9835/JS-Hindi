@@ -3,7 +3,7 @@
 // Interview most important questions 
 
 
-Datatypes in JS are o ftwo types:
+Datatypes in JS are of two types:
 
 i-Primitive type
 ii-Non- primitive  or refernce type
