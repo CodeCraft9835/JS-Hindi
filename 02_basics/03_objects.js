@@ -1,15 +1,15 @@
 // singleton - is made when object is cretaed form constructor
 
 //object literals consists of key and value pairs KEYS by default in object are string
-const mySym = Symbol("key1")
-const JsUser = {
+const mySym = Symbol("key1")// symbol datatype declaration
+const JsUser = { //object literal
     name : "Apurva",
     "full name" : "Apurva Dutta",
     age : 19 , 
     location : "Patna",
     email : "apurva@gmail.com",
     isLoggedIn : false ,
-    lastLoginDays : ["Monday","Saturday"],
+    lastLoginDays : ["Monday","Saturday"], //[] arrays form
     //adding symbol
    [ mySym ] : "mykey1" //correct way dont write symbol as mySym : "key1" its wrong it will typeof String not symbol
 }
@@ -39,7 +39,8 @@ JsUser.greeting = function(){
 console.log(JsUser.greeting()); 
 
 JsUser.greetingtwo = function(){
-    console.log(`Hello JS user , ${this["full name"]}`);
-    
+    console.log(`Hello JS user , ${this["full name"]}`); // this way is called as string interpolation means wruting under ` `
+    console.log(`Hello ${this.name}`);
 }
 console.log(JsUser.greetingtwo());
+
